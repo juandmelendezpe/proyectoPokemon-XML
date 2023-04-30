@@ -3,7 +3,7 @@
 }
 :root{
     --color-fondo-naranja: #f5a500;
-    --color-fondo-marron: #a52a2a;
+    --color-fondo-marron: #9e5d5d;
     --color_titulo: #807ffe;
     --text-color-white: #f5f5dc;
     --text-color-black: #000;
@@ -21,22 +21,18 @@ body{
     
 }
 
-.container{
-   width: 90%;
-   max-width: 800px;
-    margin: auto;
-}
 /*************** HEADER****************/
 
 header{
-    width: 100%;
-    height: 15%;
-    background-color: var(--color-fondo-naranja);
-    display: flex;
-    justify-content: center;
+    height: 10%;
     position: fixed;
+    background-color: var(--color-fondo-naranja);
 }
 
+.container{
+    width: 80%;
+   
+}
 .nav{
    width:35%;
    height:100%;
@@ -61,59 +57,34 @@ header{
 /****************************************main**********/
 main{
     background-color: var(--color-fondo-marron);
-    display: flex;
-    justify-content: center;
-    height: 900px;
+     width: 100%;
+     height: auto;
 }
+/************************section BANNER FONDO**********/
 .banner_fondo{
-    background-image: url(..img/header.jpeg);
+    background-image: url(..img/header.jpg);
     width: 100%;
-    height: 30%;
+    height: 40%;
+    border: 1px solid white;
 }
 .texto_presentacion{
-    width: 100%;
-    height: 90%;   
-    margin: 5px; 
+    width: 70%;
+    height: 70%;   
+    margin-top: 10%; 
     color: white;
+    border: 1px solid red   ;
 }
-
-/*****************table_votos****************/
-.article_table_votos{
+/**************************section habilidades**********/
+.poderes-habilidades{
     width: 100%;
-    height: 55%;
-    background-color: #b9854d;
-}
-.article_table_votos img{
-height: 17px;
+    height: 30%;
+    border : 1px green;
 
 }
-.article_table_votos table{
-    width: 80%;
-    margin: -20px auto 0 auto;
-    border-spacing: 0;
-}
 
-.franja{
-    background-color: forestgreen;
-    height: 10%;
-}
-
-.article_table_votos th{
-    color: #fff;
-    text-align: left;
-    border-bottom: 1px solid #fff;
-    padding: 1px;
-    
-}
-
-.article_table_votos td{
-    border-bottom: 1px solid #111111;
-    height: 25px;
-}
-
-footer {
-    background-color: var(--color-fondo-marron);
-    color: var(--text-color-white);
-    text-align: center;
-    font-size: 1.4rem;
+/*****************section galeria pokemones****************/
+.galeria-pokemones{
+    width: 100%;
+    height: 30%;
+    border: 1px solid orange;
 }
