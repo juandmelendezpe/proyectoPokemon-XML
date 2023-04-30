@@ -18,12 +18,11 @@
 body{
     margin: 0;
     padding: 0;
-    background-image: url(../img/fondo_header_body.gif);
-    background-repeat: repeat-x;
+    
 }
 
 .containar{
-   width: 60%;
+   width: 80%;
    max-width: 800px;
     margin: auto;
 }
@@ -36,18 +35,12 @@ header{
     height: 37%;
 }
 
-.fondo_header{
-    background-image: url(../img/fondo_header.jpg);
-    background-size: cover;
-    width: 42%;
-    height: 265px;
-    justify-content: center;
-    color: var(--text-color-white);
-    font-size: 1.5rem;
-    text-align: center;
+.nav{
+   width:50%;
+   height:auto;
 }
-.banner_header{
-    width: 100%;
+.logo{
+    width: 30%;
     height: 110px;
     margin: 1px;
     padding: 1px;
