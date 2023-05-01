@@ -115,18 +115,17 @@ main{
 /**************************section habilidades**********/
 .poderes-habilidades{
     width: 70%;
-    height: 50%;
+    height: 40%;
     border : 1px solid rgb(32, 0, 128);
     margin-left: 15%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 
 }
 
 .poderes-habilidades_box{
     width: 30%;
-    height: 12%;
     margin: 2px;
     padding: 2px;
     border: 1px solid white;
@@ -142,20 +141,31 @@ main{
 /*****************section galeria pokemones****************/
 .galeria-pokemones{
     width: 70%;
-    height: 160%;
+    height: 100%;
     border: 1px solid orange;
     margin-left: 15%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 .galeria-pokemones_box{
     width: 32%;
     margin: 2px;
-    padding: 1px;
+    padding: 10px;
     border: 1px solid white;
 }
+.galeria-pokemones_box_datos{
+    height: 5%;
+    float: left;
+    color: white;
+}
+.galeria-pokemones_box_imagen{
+    float: right;
 
+}
+.galeria-pokemones_box_imagen img{
+    height: 100px;
+}
 
 footer{
     width: 100%;
