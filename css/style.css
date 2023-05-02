@@ -97,7 +97,7 @@ main{
 /************************section BANNER FONDO**********/
 .banner_fondo{
     background-image: url(../img/header.jpeg);
-   
+    background-size: cover;
     width: 70%;
     height: 37%;
     border: 1px solid white;
