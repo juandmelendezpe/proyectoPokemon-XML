@@ -47,7 +47,7 @@
 						<div class="poderes-habilidades_box"><img src="img/no_type.png" alt="not"/> <span>not</span></div>
 						<div class="poderes-habilidades_box"><img src="img/bug_type.png" alt="bug"/> bug</div>
 						<div class="poderes-habilidades_box"><img src="img/dark_type.png" alt="dark_type"/> dark</div>
-						<div class="poderes-habilidades_box"></div>
+						<div class="poderes-habilidades_box"><img src="img/{pokedex/types}_type.png" alt="imagen typo {type}" /><xsl:value-of select="pokedex/types"/> </div>
 						<div class="poderes-habilidades_box"></div>
 						<div class="poderes-habilidades_box"></div>
 						<div class="poderes-habilidades_box"></div>
