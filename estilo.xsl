@@ -68,12 +68,12 @@
 					<section class="galeria-pokemones">
 						<div class="galeria-pokemones_box">
 							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span><br>
-								<span>HP:</span><br>
-								<span>ARTK:</span><br>
-								<span>DEF:</span><br>
-								<span>SPED:</span><br>
-								<span>SATK:</span><br>
+								<span>Nombre:</span>
+								<span>HP:</span>
+								<span>ARTK:</span>
+								<span>DEF:</span>
+								<span>SPED:</span>
+								<span>SATK:</span>
 								<img src="img/grass_type.png" alt="grass_type"/>
 								<img src="img/poison_type.png" alt="poison_type"/>
 								
@@ -85,12 +85,12 @@
 
 						<div class="galeria-pokemones_box">
 							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span><br>
-								<span>HP:</span><br>
-								<span>ARTK:</span><br>
-								<span>DEF:</span><br>
-								<span>SPED:</span><br>
-								<span>SATK:</span><br>
+								<span>Nombre:</span>
+								<span>HP:</span>
+								<span>ARTK:</span>
+								<span>DEF:</span>
+								<span>SPED:</span>
+								<span>SATK:</span>
 								<img src="img/grass_type.png" alt="grass_type"/>
 								<img src="img/poison_type.png" alt="poison_type"/>
 								
@@ -101,12 +101,12 @@
 						</div>
 						<div class="galeria-pokemones_box">
 							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span><br>
-								<span>HP:</span><br>
-								<span>ARTK:</span><br>
-								<span>DEF:</span><br>
-								<span>SPED:</span><br>
-								<span>SATK:</span><br>
+								<span>Nombre:</span>
+								<span>HP:</span>
+								<span>ARTK:</span>
+								<span>DEF:</span>
+								<span>SPED:</span>
+								<span>SATK:</span>
 								<img src="img/grass_type.png" alt="grass_type"/>
 								<img src="img/poison_type.png" alt="poison_type"/>
 								
@@ -117,12 +117,12 @@
 						</div>
 						<div class="galeria-pokemones_box">
 							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span><br>
-								<span>HP:</span><br>
-								<span>ARTK:</span><br>
-								<span>DEF:</span><br>
-								<span>SPED:</span><br>
-								<span>SATK:</span><br>
+								<span>Nombre:</span>
+								<span>HP:</span>
+								<span>ARTK:</span>
+								<span>DEF:</span>
+								<span>SPED:</span>
+								<span>SATK:</span>
 								<img src="img/grass_type.png" alt="grass_type"/>
 								<img src="img/poison_type.png" alt="poison_type"/>
 								
@@ -133,12 +133,12 @@
 						</div>
 						<div class="galeria-pokemones_box">
 							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span><br>
-								<span>HP:</span><br>
-								<span>ARTK:</span><br>
-								<span>DEF:</span><br>
-								<span>SPED:</span><br>
-								<span>SATK:</span><br>
+								<span>Nombre:</span>
+								<span>HP:</span>
+								<span>ARTK:</span>
+								<span>DEF:</span>
+								<span>SPED:</span>
+								<span>SATK:</span>
 								<img src="img/grass_type.png" alt="grass_type"/>
 								<img src="img/poison_type.png" alt="poison_type"/>
 								
@@ -149,12 +149,12 @@
 						</div>
 						<div class="galeria-pokemones_box">
 							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span><br>
-								<span>HP:</span><br>
-								<span>ARTK:</span><br>
-								<span>DEF:</span><br>
-								<span>SPED:</span><br>
-								<span>SATK:</span><br>
+								<span>Nombre:</span>
+								<span>HP:</span>
+								<span>ARTK:</span>
+								<span>DEF:</span>
+								<span>SPED:</span>
+								<span>SATK:</span>
 								<img src="img/grass_type.png" alt="grass_type"/>
 								<img src="img/poison_type.png" alt="poison_type"/>
 								

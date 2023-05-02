@@ -35,7 +35,6 @@ header{
     height: 10%;
     display: flex;
     justify-content: center;
-    position: relative;
 }
 
 .container_header{
@@ -158,6 +157,9 @@ main{
     height: 5%;
     float: left;
     color: white;
+}
+.galeria-pokemones_box_datos span{
+    display: block;
 }
 .galeria-pokemones_box_imagen{
     float: right;
