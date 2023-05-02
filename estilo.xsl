@@ -44,149 +44,36 @@
 							</div>
 					</section>
 					<section class="poderes-habilidades">
-						<div class="poderes-habilidades_box"><img src="img/no_type.png" alt="not"/> <span>not</span></div>
-						<div class="poderes-habilidades_box"><img src="img/bug_type.png" alt="bug"/> bug</div>
-						<div class="poderes-habilidades_box"><img src="img/dark_type.png" alt="dark_type"/> dark</div>
-						<div class="poderes-habilidades_box"><img src="img/{pokedex/types}_type.png" alt="imagen typo {type}" /><xsl:value-of select="pokedex/types"/> </div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
-						<div class="poderes-habilidades_box"></div>
+									<xsl:for-each select="/pokedex/types/type">
+										
+						<div class="poderes-habilidades_box">
+							<img src="img/{.}_type.png" alt="imagen typo" />||
+							<span>a:<xsl:value-of select="types/type"/> </span>
+						</div>
 
-
+									</xsl:for-each>
+						
 					</section>
 					<section class="galeria-pokemones">
+									<xsl:for-each select="/pokedex/pokemon">
 						<div class="galeria-pokemones_box">
-							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span>
-								<span>HP:</span>
-								<span>ARTK:</span>
-								<span>DEF:</span>
-								<span>SPED:</span>
-								<span>SATK:</span>
-								<img src="img/grass_type.png" alt="grass_type"/>
-								<img src="img/poison_type.png" alt="poison_type"/>
-								
-							</div>
-							<div class="galeria-pokemones_box_imagen">
-								<img src="img/001.png" alt="pokemon 001"/>
-							</div>
+										<div class="galeria-pokemones_box_datos">
+												
+											<span>Nombre:<xsl:value-of select="species"/></span>
+											<span>HP: <xsl:value-of select="baseStats/HP"/> </span>
+											<span>ATK:<xsl:value-of select="baseStats/ATK"/></span>
+											<span>DEF:<xsl:value-of select="baseStats/DEF"/></span>
+											<span>SPED:<xsl:value-of select="baseStats/DEF"/></span>
+											<span>SATK:<xsl:value-of select="baseStats/SATK"/></span>
+											<img src="img/grass_type.png" alt="grass_type"/>
+											<img src="img/poison_type.png" alt="poison_type"/>
+											
+										</div>
+										<div class="galeria-pokemones_box_imagen">
+											<img src="img/001.png" alt="pokemon 001"/>
+										</div>
 						</div>
-
-						<div class="galeria-pokemones_box">
-							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span>
-								<span>HP:</span>
-								<span>ARTK:</span>
-								<span>DEF:</span>
-								<span>SPED:</span>
-								<span>SATK:</span>
-								<img src="img/grass_type.png" alt="grass_type"/>
-								<img src="img/poison_type.png" alt="poison_type"/>
-								
-							</div>
-							<div class="galeria-pokemones_box_imagen">
-								<img src="img/001.png" alt="pokemon 001"/>
-							</div>
-						</div>
-						<div class="galeria-pokemones_box">
-							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span>
-								<span>HP:</span>
-								<span>ARTK:</span>
-								<span>DEF:</span>
-								<span>SPED:</span>
-								<span>SATK:</span>
-								<img src="img/grass_type.png" alt="grass_type"/>
-								<img src="img/poison_type.png" alt="poison_type"/>
-								
-							</div>
-							<div class="galeria-pokemones_box_imagen">
-								<img src="img/001.png" alt="pokemon 001"/>
-							</div>
-						</div>
-						<div class="galeria-pokemones_box">
-							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span>
-								<span>HP:</span>
-								<span>ARTK:</span>
-								<span>DEF:</span>
-								<span>SPED:</span>
-								<span>SATK:</span>
-								<img src="img/grass_type.png" alt="grass_type"/>
-								<img src="img/poison_type.png" alt="poison_type"/>
-								
-							</div>
-							<div class="galeria-pokemones_box_imagen">
-								<img src="img/001.png" alt="pokemon 001"/>
-							</div>
-						</div>
-						<div class="galeria-pokemones_box">
-							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span>
-								<span>HP:</span>
-								<span>ARTK:</span>
-								<span>DEF:</span>
-								<span>SPED:</span>
-								<span>SATK:</span>
-								<img src="img/grass_type.png" alt="grass_type"/>
-								<img src="img/poison_type.png" alt="poison_type"/>
-								
-							</div>
-							<div class="galeria-pokemones_box_imagen">
-								<img src="img/001.png" alt="pokemon 001"/>
-							</div>
-						</div>
-						<div class="galeria-pokemones_box">
-							<div class="galeria-pokemones_box_datos">
-								<span>Nombre:</span>
-								<span>HP:</span>
-								<span>ARTK:</span>
-								<span>DEF:</span>
-								<span>SPED:</span>
-								<span>SATK:</span>
-								<img src="img/grass_type.png" alt="grass_type"/>
-								<img src="img/poison_type.png" alt="poison_type"/>
-								
-							</div>
-							<div class="galeria-pokemones_box_imagen">
-								<img src="img/001.png" alt="pokemon 001"/>
-							</div>
-						</div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
-						<div class="galeria-pokemones_box"></div>
+									</xsl:for-each>
 
 					</section>
 

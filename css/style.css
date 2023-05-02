@@ -114,7 +114,7 @@ main{
 /**************************section habilidades**********/
 .poderes-habilidades{
     width: 70%;
-    height: 40%;
+    height: 50%;
     border : 1px solid rgb(32, 0, 128);
     margin-left: 15%;
     display: flex;
@@ -135,6 +135,9 @@ main{
     display: block;
     margin-left: 46%;
 
+}
+.poderes-habilidades_box span{
+    display: block;
 }
 
 /*****************section galeria pokemones****************/
