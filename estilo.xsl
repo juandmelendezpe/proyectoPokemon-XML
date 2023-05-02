@@ -24,18 +24,18 @@
 			<body>
 				<header>
 						<div class="container_header">
-							<div class="logo">
-								<img src="img/Pokeball.png" alt="logo pokeball"/>
-							</div>
-	
-							<div class="menu">
-								<nav>
-									<ul>
-									<li>Pokemon</li>
-									<li>Tipos</li>
-									</ul>
-								</nav>
-							</div>
+									<div class="logo">
+										<img src="img/Pokeball.png" alt="logo pokeball"/>
+									</div>
+			
+									<div class="menu">
+										<nav>
+											<ul>
+											<li>Pokemon</li>
+											<li>Tipos</li>
+											</ul>
+										</nav>
+									</div>
 						</div>
 				</header>
 				<main>
@@ -47,12 +47,10 @@
 									<xsl:for-each select="/pokedex/types/type">
 										
 						<div class="poderes-habilidades_box">
-							<img src="img/{.}_type.png" alt="imagen typo" />||
-							<span>a:<xsl:value-of select="types/type"/> </span>
+							<img src="img/{.}_type.png" alt="imagen typo" />
+							<span>a: <xsl:value-of select="types/type"/> </span> 
 						</div>
-
 									</xsl:for-each>
-						
 					</section>
 					<section class="galeria-pokemones">
 									<xsl:for-each select="/pokedex/pokemon">
@@ -77,8 +75,18 @@
 
 					</section>
 
-					<footer> Pokedex 2023</footer>
 				</main>
+				<footer>
+					<div class="logo">
+						<img src="img/Pokeball.png" alt="logo pokeball"/>
+					</div>
+					<div class="logo">
+						Pokedex 2023
+					</div>
+					<div class="logo">
+						<img src="img/Pokeball.png" alt="logo pokeball"/>
+					</div>
+				</footer>
   </body>
 </html>
 </xsl:template>
