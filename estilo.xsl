@@ -44,13 +44,13 @@
 							</div>
 					</section>
 					<section class="poderes-habilidades">
-									<xsl:for-each select="/pokedex/types/type">
+					<xsl:for-each select="/pokedex/types/type">
 										
 						<div class="poderes-habilidades_box">
 							<img src="img/{.}_type.png" alt="imagen typo" />
 							<span>a: <xsl:value-of select="types/type"/> </span> 
 						</div>
-									</xsl:for-each>
+						</xsl:for-each>
 					</section>
 					<section class="galeria-pokemones">
 									<xsl:for-each select="/pokedex/pokemon">
